@@ -1,12 +1,17 @@
 
 
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+document.addEventListener('DOMContentLoaded', function() {
+  // Get references to the menu icon and the navigation menu
+  const menuIcon = document.getElementById('menuIcon');
+  const navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () =>{
-    menuIcon.classList.toggle('fa-xmark');
-    navbar.classList.toggle('active');
-}
+  // Add click event listener to the menu icon
+  menuIcon.addEventListener('click', function() {
+      // Toggle the 'active' class on the navigation menu
+      navbar.classList.toggle('active');
+  });
+});
+
 
     /*========scroll section active link ========*/
 
