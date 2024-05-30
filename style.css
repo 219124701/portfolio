@@ -560,3 +560,22 @@ section{
         order: 2;
     }  
 }
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+h3 span {
+    display: inline-block;
+    animation: bounce 2s infinite;
+    color: #ff69b4; /* Poor pink color */
+}
