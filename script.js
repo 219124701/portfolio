@@ -1,4 +1,4 @@
-
+/*============meniIcon====*/
 
 document.addEventListener('DOMContentLoaded', function() {
   // Get references to the menu icon and the navigation menu
