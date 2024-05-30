@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8eLwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+   
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Okuhle Ngeyane</title>
+</head>
+<body>
+
+    <!-- HEADER DECISION -->
+    <header class="header">
+        <a href="#" class="logo">OKUHLE</a>
+
+    <i class="fa-solid fa-bars" id="menuIcon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="mode-switch" style="border: 1px grey solid; width: 40px; height: 25px; background-color: white; text-align: center; border-radius: 20px;">
+            <button id="darkModeBtn" onclick="toggleDarkMode()">
+              <i class="fas fa-moon"></i>
+            </button>
+            <button id="lightModeBtn" onclick="toggleLightMode()">
+              <i class="fas fa-sun"></i>
+            </button>
+          </div>
+  </header>
+  
+    
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I am </h3>
+            <h1>Okuhle Ngeyane</h1>
+            <h3>And I am a <span>Software Developer</span></h3>
+            <p>A versatile professional adept at bridging the gap between business needs and technical solutions.
+                With a keen eye for analyzing business processes and a passion for software development,
+                I specialize in delivering innovative solutions that drive growth and efficiency.
+                Explore my portfolio to discover how I turn complex business challenges into streamlined,tech-driven success stories.
+                
+                Let's collaborate and transform your business vision into reality.
+                
+                
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/okuhlehlela.ngeyane/"><i class="fa-brands fa-facebook"></i></a> 
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Images/ngeyane. cv.pdf" class="btn" download>Download CV</a> 
+
+        </div>
+
+        <div class="home-img">
+            <img src="./Images/image.png" alt="">
+        </div>
+    </section>
+
+
+    <!-- =========ABOUT SECTION========= -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/NGEYANE-removebg-preview.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Business Analysis || Software Developer</h3>
+            <p>I'm Okuhle Ngeyane, a Business Analyst and Software Developer <br>
+                with a passion for driving business growth through technology solutions.<br>
+                With a background in Business Administration and extensive experience <br>in 
+                both business analysis and software development
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- =======SERVICES SECTION=========== -->
+
+    <section class="services" id="services">
+        <h2 class="heading"> My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h2>Business Analyst</h2>
+                <p>I Okuhle Ngeyane graduated on Business analysis at Walter Sisulu University.</p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+            <h2>Software developer</h2>
+            <p>Currently i am obtaining an interniship on software developer at Capaciti.</p>
+        </div>
+        </div>
+    </section> 
+
+    <!-------------PORTFOLIO SECRION-------->
+
+    <section class="Porfolio" id="Portfolio">
+        <h2 class="heading">Portfolio</h2>
+
+        <div class="Portfolio-container">
+            <div class="portfolio-box">
+                <img src="Images/Tutering.png" alt="">
+                <div class="portfolio-layer">
+                    <h2>Tutering_website</h2>
+                    <p>
+            Software developer is the art and science of creating visually appealing and functional websites.<br> It encompasses various disciplines, including graphic design, user interface (UI) design, user experience (UX) design, <br>and coding. Effective web design goes beyond aesthetics;<br> it focuses on crafting interfaces that engage users, communicate information clearly, and drive desired actions.</p>
+            <a href="https://216037150.github.io/Tuturing_Web_Site/"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+            <div class="Portfolio-container">
+                <div class="portfolio-box">
+                    <img src="Images/my-img.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h2>Web Design</h2>
+                        <p>
+                Web design is the art and science of creating visually appealing and functional websites.<br> It encompasses various disciplines, including graphic design, user interface (UI) design, user experience (UX) design, <br>and coding. Effective web design goes beyond aesthetics;<br> it focuses on crafting interfaces that engage users, communicate information clearly, and drive desired actions.</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+    
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-----------SECTION CONTACT--------------->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form id="contact-form" onsubmit="sendMessage(); return false;">
+          <div class="input-box">
+            <input type="text" id="FullName" placeholder="Full Name" required>
+            <input type="email" id="Email" placeholder="Email Address" required>
+            <input type="text" id="Subject" placeholder="Subject" required>
+            <input type="text" id="Mobile" placeholder="Mobile Number" required>
+            <textarea id="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          </div>
+          <input type="submit" value="Send Message" class="btn">
+        </form>
+      </section>
+
+    <div class="contact-in">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.2449866713037!2d18.458686314771003!3d-33.929010727883736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc6703bb1eb6eb%3A0x5de504fd8530c2e3!2sSalt%20River%2C%20Cape%20Town%2C%207942%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1649964914766!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      
+    
+
+    <!--------scroll up button------>
+
+<button onclick="scrollToTop()" id="scrollBtn" class="scrollBtn"></button>
+<div class="footer-iconTop">
+    <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+</div>
+    <!------------footer--------->
+    
+    <footer class="footer"> 
+        <div class="footer-text">
+          <p>Copyright &copy; 2024 by @Okuhle Ngeyane | All rights</p>
+        </div>
+
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+        <script src="email.js"></script>
+
+     <script src="script.js"></script>
+
+
+     <script>
+        // Function to toggle the navigation menu visibility
+        function toggleMenu() {
+            var navbar = document.getElementById('navbar');
+            navbar.classList.toggle('active');
+        }
+    
+        // Event listener to toggle the menu when the icon is clicked
+        document.getElementById('menuIcon').addEventListener('click', function() {
+            toggleMenu();
+        });
+    
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            document.body.classList.add('dark-mode');
+            document.body.classList.remove('light-mode');
+        }
+    
+        // Function to toggle light mode
+        function toggleLightMode() {
+            document.body.classList.add('light-mode');
+            document.body.classList.remove('dark-mode');
+        }
+    
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+    
+
+</body>
+</html>                                                                 
