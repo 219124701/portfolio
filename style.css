@@ -577,6 +577,6 @@ section{
 h3 span {
     display: inline-block;
     animation: bounce 2s infinite;
-    color: #ff69b4; /* Poor pink color */
+    color: var(--main-color); /* Poor pink color */
     animation-delay: 1s; /* Delay of 1 second before animation starts */
 }
